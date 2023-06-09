@@ -4,6 +4,7 @@ jenkins script groovy  <br/>
 
 ## 파이프라인 순서
 1. build stage
+2. deploy stage
     1-1 gitlab fetch
     1-2 docker imaage build & push
 2. deploy stage
