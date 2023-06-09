@@ -1,5 +1,7 @@
 # Jenkins-script
 jenkins script groovy
+
+
 ## 파이프라인 순서
  1. build stage
  1-1 gitlab fetch
