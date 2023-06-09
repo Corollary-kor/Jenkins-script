@@ -14,13 +14,13 @@ jenkins script groovy
 ### 1. 이미지 생성시 태그 정책 만들어 ecr에 올린후 빌드후 배포
  AWS_ECR_tag-policy_buildANDdeploy.groovy
 
-## 1-1 태그정책
+### 1-1 태그정책
  가장 최근에 만들어 진건 latest
  그다음부터는 latest가 prod-001, prod-002로 변경됨
  이미지 갯수는 AWS ECR lifecycle에서 설정
  없을땐 새로 생성
 
-## 1-2 slack에 알람 설정이 되어 있다.
+### 1-2 slack에 알람 설정이 되어 있다.
 
 
 ## 2. 이미지 태그 선택 목록 가져와서 띄우기
